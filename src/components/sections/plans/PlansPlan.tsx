@@ -9,7 +9,7 @@ import { cn } from "@/lib/cn";
 /**
  * 02 / 03　プランごとの詳しい内容。/plans/ 専用。
  *
- * 1週間プラン（plans.week）と1ヶ月プラン（plans.month）で同じ部品を使います。
+ * 5泊6日プラン（plans.week）と1ヶ月プラン（plans.month）で同じ部品を使います。
  * 並べる順番は「プラン名 → 料金 → 滞在先 → 何をする1週間・1ヶ月か → 受け入れの条件」です
  * （指示書12: プラン名 → 滞在期間 → 料金 → 内容）。
  *
@@ -19,7 +19,7 @@ import { cn } from "@/lib/cn";
  *
  * ■ 文章 … src/content/plans.ts の week / month
  * ■ 写真 … src/components/sections/plans/photos.ts の対応表
- *   ※ 三津浜の宿の写真は素材にありません。1週間プランには畑の写真を当てています
+ *   ※ 三津浜の宿の写真は素材にありません。5泊6日プランには畑の写真を当てています
  *     （宿の写真としては使っていません。追加撮影推奨・pending-facts C-1）。
  */
 

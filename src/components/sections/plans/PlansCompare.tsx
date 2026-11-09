@@ -4,7 +4,7 @@ import { TextLink } from "@/components/ui/TextLink";
 import { plans } from "@/content/plans";
 
 /**
- * 01　1週間プランと、1ヶ月プラン。/plans/ 専用。
+ * 01　5泊6日プランと、1ヶ月プラン。/plans/ 専用。
  *
  * このページでいちばん上に置く比較です。ここだけ読めば違いが分かるようにしています。
  *

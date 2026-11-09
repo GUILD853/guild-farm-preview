@@ -5,7 +5,7 @@ import { voices } from "@/content/voices";
 
 /** プランの表示名。料金の数字は書きません（数字を出すのは /plans/ だけ） */
 const planLabel = {
-  week: "1週間滞在",
+  week: "5泊6日",
   month: "1ヶ月滞在",
 } as const;
 

@@ -34,7 +34,7 @@ export const metadata: Metadata = {
  *
  * ■ 役割（2026-09-16 ブランド編集で確定）
  *   HOME / ABOUT / OWNER / LIFE を読んで興味を持った人が、
- *   「1週間と1ヶ月のどちらが合うか」「どこに泊まりどんな生活になるか」
+ *   「5泊6日と1ヶ月のどちらが合うか」「どこに泊まりどんな生活になるか」
  *   「何が含まれていくら必要か」を判断できるページです。
  *   サイト内で最も比較・検討の情報を具体的に伝えます。
  *
@@ -43,10 +43,10 @@ export const metadata: Metadata = {
  *
  * ■ 並び（docs/plans-inventory.md の 12章に対応）
  *   —      PageHeader     プラン・料金（H1）
- *   01     PlansCompare   1週間プランと、1ヶ月プラン。（上部で2プラン比較）
+ *   01     PlansCompare   5泊6日プランと、1ヶ月プラン。（上部で2プラン比較）
  *   —      PlansLifestyle 今の暮らしに合わせて、過ごし方を組み立てる。 id="lifestyle"
  *                         （比較のあとに自分の滞在を想像する短い章。番号は付けません）
- *   02     PlansPlan      1週間プラン（5泊6日）      id="week"
+ *   02     PlansPlan      5泊6日プラン      id="week"
  *   03     PlansPlan      1ヶ月プラン                id="month"
  *   04     PlansStays     暮らす場所。（今市シェアハウス／三津浜エリアの宿）
  *   05     PlansIncluded  料金に含まれるもの、含まれないもの。（＋使える設備）
