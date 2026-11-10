@@ -10,10 +10,8 @@ import type { PlansPhotoKey } from "@/content/plans";
  * 写真を差し替えるときは、まず src/config/images.ts を見てください。
  *
  * ⚠ 梅津寺宿の写真は 2026-11-10 に追加しました（2026-10-22 撮影）。
- * ⚠ 三津浜の宿（5泊6日プランの滞在先）の写真は**素材がありません**。
- *   今市シェアハウス（house 6枚）を三津浜の写真として使うことはできません。
- *   写真が届くまでは、三津浜の宿は文字だけで書きます
- *   （docs/pending-facts.md の C-1）。
+ * ⚠ 三津浜の宿の写真は 2026-11-10 に届きました（images.mitsuhama の12枚）。
+ *   今市シェアハウス（house）の写真を三津浜の写真として使うことはできません。
  */
 export const plansPhotos: Record<PlansPhotoKey, ImageAsset> = {
   /** 今市シェアハウス（images.house の並び順に対応） */
@@ -32,6 +30,20 @@ export const plansPhotos: Record<PlansPhotoKey, ImageAsset> = {
   baishinjiGarden: images.baishinji[4], // 庭から見たテラス
   baishinjiBath: images.baishinji[5], // 浴室
   baishinjiToilet: images.baishinji[6], // 絵のあるトイレ
+
+  /** 三津浜エリアの宿（images.mitsuhama の並び順に対応） */
+  mitsuhamaExterior: images.mitsuhama[0], // 外観
+  mitsuhamaKitchen: images.mitsuhama[1], // 共用キッチン
+  mitsuhamaStairs: images.mitsuhama[2], // 階段
+  mitsuhamaRoomUp: images.mitsuhama[3], // 2階の個室
+  mitsuhamaShower: images.mitsuhama[4], // シャワー
+  mitsuhamaGarden: images.mitsuhama[5], // 坪庭
+  mitsuhamaLiving: images.mitsuhama[6], // 共用の居間
+  mitsuhamaWash: images.mitsuhama[7], // 洗面
+  mitsuhamaToilet: images.mitsuhama[8], // お手洗い
+  mitsuhamaCorridor: images.mitsuhama[9], // 廊下
+  mitsuhamaRoom: images.mitsuhama[10], // 個室
+  mitsuhamaYard: images.mitsuhama[11], // 坪庭から見た建物
 
   /** そのほか */
   workDesk: images.dayWork, // 窓際に机を置いた部屋

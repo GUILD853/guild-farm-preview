@@ -19,6 +19,7 @@
  *   about / day / owner … 縦長 1200×1500px 前後（4:5）
  *   house             … 縦長 1280×1600px（4:5）／外観のみ横長 1600×1067px（3:2）
  *   baishinji         … 横長 1600×1067px（3:2）
+ *   mitsuhama         … 長辺1600pxに縮小（縦横は写真による）
  *   experience / journal … 正方形 1200×1200px 前後（1:1）
  */
 
@@ -162,6 +163,25 @@ export const images = {
       src: "/images/baishinji-07.jpg",
       alt: "壁一面に海と草花の絵が描かれたトイレ",
     },
+  ] satisfies ImageAsset[],
+
+  /**
+   * 4-d. MITSUHAMA（三津浜エリアの宿・5泊6日プランの滞在先）
+   * 松井さんご提供（2026-11-10）。並び順は /plans/ の「暮らす場所」と1対1で対応しています。
+   */
+  mitsuhama: [
+    { src: "/images/mitsuhama-01.jpg", alt: "通りから見た宿の外観。格子戸と郵便受けが並ぶ町家" },
+    { src: "/images/mitsuhama-02.jpg", alt: "ステンレスの流しと調理道具が並ぶ共用のキッチン" },
+    { src: "/images/mitsuhama-03.jpg", alt: "2階へ続く、木の階段" },
+    { src: "/images/mitsuhama-04.jpg", alt: "板張りの部屋に布団とビーズクッションを置いた2階の個室" },
+    { src: "/images/mitsuhama-05.jpg", alt: "独立したシャワーブース" },
+    { src: "/images/mitsuhama-06.jpg", alt: "石と灯籠、苔と緑のある坪庭" },
+    { src: "/images/mitsuhama-07.jpg", alt: "座卓と床の間のある、共用の居間" },
+    { src: "/images/mitsuhama-08.jpg", alt: "黒い角型の洗面ボウルと木の鏡がある洗面所" },
+    { src: "/images/mitsuhama-09.jpg", alt: "杉板を張った、温水洗浄便座つきのお手洗い" },
+    { src: "/images/mitsuhama-10.jpg", alt: "ガラスの障子が並ぶ、1階の廊下" },
+    { src: "/images/mitsuhama-11.jpg", alt: "布団と机を置いた個室。壁に絵が飾られている" },
+    { src: "/images/mitsuhama-12.jpg", alt: "坪庭から見た建物。縁側のガラス戸が並ぶ" },
   ] satisfies ImageAsset[],
 
   /** 5. WHY GUILD FARM */

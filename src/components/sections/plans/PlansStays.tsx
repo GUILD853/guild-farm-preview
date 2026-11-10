@@ -169,6 +169,13 @@ function StayView({ stay }: { stay: Stay }) {
       {stay.facilities ? <StayBlockView block={stay.facilities} /> : null}
       {stay.work ? <StayBlockView block={stay.work} columns={1} /> : null}
 
+      {/* アメニティ・家のつくりなど、滞在先ごとの追加ブロック */}
+      {stay.extras
+        ? stay.extras.map((block) => (
+            <StayBlockView key={block.title} block={block} columns={1} />
+          ))
+        : null}
+
       {/* 周辺（＋所在地） */}
       {stay.surroundings ? (
         <div className="reveal mt-12 border-t border-sand pt-8 md:mt-16">
