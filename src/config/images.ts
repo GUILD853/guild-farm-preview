@@ -149,7 +149,7 @@ export const images = {
     },
     {
       src: "/images/baishinji-04.jpg",
-      alt: "縁側から見たテラス。屋根の下にベンチ、庭にバーベキューコンロ",
+      alt: "室内から見たテラス。屋根の下にベンチ、庭にバーベキューコンロ",
     },
     {
       src: "/images/baishinji-05.jpg",
