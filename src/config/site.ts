@@ -102,14 +102,22 @@ export const siteConfig = {
   },
 
   contact: {
-    email: "guildfarm.dogo@gmail.com",
+    /**
+     * 画面に出る連絡先。
+     * ⚠ 2026-11-10 変更：以前は guildfarm.dogo@gmail.com でしたが、
+     *   そちらは誰も見ていない可能性があり、申し込みの通知が届くのは info@ なので、
+     *   サイト上の連絡先を info@guild853.com に統一しました。
+     */
+    email: "info@guild853.com",
     /** 相談のメールの件名に自動で入る文字列 */
     subject: "GUILD Farmの滞在について",
     /**
-     * Googleフォームなどを使う場合は、ここにURLを入れてください。
-     * 入っていればサイト内のCTAは全てそのURLへ、空ならメール（mailto:）に飛びます。
+     * 「相談する」CTAの行き先。
+     * 入っていればサイト内の相談CTAは全てそのURLへ、空ならメール（mailto:）に飛びます。
+     * ⚠ 2026-11-10：お問い合わせ・ご相談フォームに切り替えました（松井さんの指示）。
+     *   メールだと届く先が分かれてしまうため、フォームに一本化しています。
      */
-    formUrl: "",
+    formUrl: "https://forms.gle/wqWMrwCuGeK8z5vH7",
 
     /**
      * ---- 申し込み導線（「滞在を申し込む」CTA の行き先） ----
