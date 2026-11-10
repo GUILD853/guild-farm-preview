@@ -302,7 +302,7 @@ export const pages = {
         index: "03",
         en: "One Week",
         title: "5泊6日",
-        summary: "滞在先は、三津浜エリアの宿です。",
+        summary: "滞在先は GUILD Farm 梅津寺宿、または三津浜エリアの宿です。",
       },
       {
         index: "04",
