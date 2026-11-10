@@ -34,13 +34,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 2026-11-10 独自ドメイン https://guildfarm853.guild853.com に切り替えた。
+      # 2026-11-10 独自ドメイン https://ehimefarm.guild853.com に切り替えた。
       # ルート配信になったので NEXT_PUBLIC_BASE_PATH（/guild-farm-preview）は外した。
-      # DNSは Xserver に CNAME guildfarm853 → guild853.github.io を置いている。
+      # DNSは Xserver に CNAME ehimefarm → guild853.github.io を置いている。
       - name: Build (static export)
         run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: https://guildfarm853.guild853.com
+          NEXT_PUBLIC_SITE_URL: https://ehimefarm.guild853.com
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
