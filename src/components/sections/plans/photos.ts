@@ -9,6 +9,7 @@ import type { PlansPhotoKey } from "@/content/plans";
  * 実際の画像ファイルとの対応づけは、この1ファイルだけで行います。
  * 写真を差し替えるときは、まず src/config/images.ts を見てください。
  *
+ * ⚠ 梅津寺宿の写真は 2026-11-10 に追加しました（2026-10-22 撮影）。
  * ⚠ 三津浜の宿（5泊6日プランの滞在先）の写真は**素材がありません**。
  *   今市シェアハウス（house 6枚）を三津浜の写真として使うことはできません。
  *   写真が届くまでは、三津浜の宿は文字だけで書きます
@@ -22,6 +23,15 @@ export const plansPhotos: Record<PlansPhotoKey, ImageAsset> = {
   houseCorridor: images.house[3], // 廊下
   houseExterior: images.house[4], // 外観
   houseEntrance: images.house[5], // 玄関
+
+  /** 梅津寺宿（images.baishinji の並び順に対応） */
+  baishinjiExterior: images.baishinji[0], // 外観
+  baishinjiLiving: images.baishinji[1], // 居間
+  baishinjiBedroom: images.baishinji[2], // 和室（布団）
+  baishinjiTerrace: images.baishinji[3], // 縁側から見たテラス
+  baishinjiGarden: images.baishinji[4], // 庭から見たテラス
+  baishinjiBath: images.baishinji[5], // 浴室
+  baishinjiToilet: images.baishinji[6], // 絵のあるトイレ
 
   /** そのほか */
   workDesk: images.dayWork, // 窓際に机を置いた部屋

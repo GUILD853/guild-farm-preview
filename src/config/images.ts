@@ -18,6 +18,7 @@
  *   hero / cta        … 横長 2000px 以上（16:9）
  *   about / day / owner … 縦長 1200×1500px 前後（4:5）
  *   house             … 縦長 1280×1600px（4:5）／外観のみ横長 1600×1067px（3:2）
+ *   baishinji         … 横長 1600×1067px（3:2）
  *   experience / journal … 正方形 1200×1200px 前後（1:1）
  */
 
@@ -123,6 +124,43 @@ export const images = {
     {
       src: "/images/house-06.jpg",
       alt: "紫色の扉のある、シェアハウスの玄関",
+    },
+  ] satisfies ImageAsset[],
+
+  /**
+   * 4-c. BAISHINJI（梅津寺宿・一棟貸し）
+   * 2026-10-22 撮影。原本は松井さんの ~/Desktop/梅津寺宿写真/ にあります。
+   * 並び順は /plans/ の「梅津寺宿 一棟貸し」で使う写真と1対1で対応しています。
+   * すべて 3:2（横）で書き出しています。
+   */
+  baishinji: [
+    {
+      src: "/images/baishinji-01.jpg",
+      alt: "梅津寺宿の外観。玄関へ続くコンクリートのアプローチと、背後の裏山",
+    },
+    {
+      src: "/images/baishinji-02.jpg",
+      alt: "畳の居間。緑のソファと、一枚板の長いテーブル",
+    },
+    {
+      src: "/images/baishinji-03.jpg",
+      alt: "床の間のある和室に、布団が2組並べて敷かれている",
+    },
+    {
+      src: "/images/baishinji-04.jpg",
+      alt: "縁側から見たテラス。屋根の下にベンチ、庭にバーベキューコンロ",
+    },
+    {
+      src: "/images/baishinji-05.jpg",
+      alt: "庭から見たテラス。人工芝の庭とバーベキューコンロ",
+    },
+    {
+      src: "/images/baishinji-06.jpg",
+      alt: "タイル張りの浴室。浴槽とシャワー、風呂いす",
+    },
+    {
+      src: "/images/baishinji-07.jpg",
+      alt: "壁一面に海と草花の絵が描かれたトイレ",
     },
   ] satisfies ImageAsset[],
 

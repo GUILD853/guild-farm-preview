@@ -81,6 +81,7 @@ export default function PlansPage() {
       <PlansLifestyle />
       <PlansPlan id="week" content={plans.week} tone="paper" />
       <PlansPlan id="month" content={plans.month} tone="cream" />
+      <PlansPlan id="night" content={plans.night} tone="paper" />
       <PlansStays />
       <PlansIncluded />
       <PlansCosts />

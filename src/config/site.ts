@@ -77,7 +77,21 @@ export const siteConfig = {
         price: 58300,
         stay: "三津浜エリアの宿",
         capacity: "1〜5名",
-        note: "各月の2〜4週目のみ",
+        note: "受け入れ時期の限定なし（空き状況による）",
+      },
+      /**
+       * 梅津寺宿の一棟貸し（1泊）。
+       * 一棟 38,500円に、2名から1名につき 8,800円が加わります（4名まで）。
+       * 清掃費 8,000円は宿泊料とは別です。
+       */
+      night: {
+        label: "梅津寺宿 一棟貸し（1泊）",
+        price: 38500,
+        perPerson: 8800,
+        cleaning: 8000,
+        stay: "GUILD Farm 梅津寺宿（松山市梅津寺町）",
+        capacity: "4名まで（お子さまの添い寝は2名まで）",
+        applyFormUrl: "https://forms.gle/9jmZhGb3qEY9QPPG9",
       },
       /** 滞在先のグレードアップ（1ヶ月滞在向け・部屋による追加料金） */
       upgrade: {

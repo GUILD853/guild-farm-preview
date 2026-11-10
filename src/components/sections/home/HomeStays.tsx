@@ -25,6 +25,8 @@ const photos: Record<(typeof home.stays.cards)[number]["photo"], ImageAsset> = {
   expHarvest: images.expHarvest,
   /** 窓際に机のある個室。「住む」イメージのため1ヶ月滞在に添えています */
   houseRoom: images.house[0],
+  /** 梅津寺宿の外観（一棟貸し） */
+  baishinji: images.baishinji[0],
 };
 
 export function HomeStays() {
@@ -46,7 +48,7 @@ export function HomeStays() {
           {home.stays.cards.map((card, i) => (
             <li
               key={card.term}
-              className={i === 1 ? "reveal md:mt-16" : "reveal"}
+              className={i % 2 === 1 ? "reveal md:mt-16" : "reveal"}
             >
               <Photo
                 image={photos[card.photo]}
