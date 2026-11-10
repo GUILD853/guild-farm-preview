@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { ClosingCta } from "@/components/sections/ClosingCta";
 import { LifeDay } from "@/components/sections/life/LifeDay";
-import { LifeFirstWeek } from "@/components/sections/life/LifeFirstWeek";
+import { LifeStay } from "@/components/sections/life/LifeStay";
 import { LifeLiving } from "@/components/sections/life/LifeLiving";
 import { LifeMonth } from "@/components/sections/life/LifeMonth";
 import { LifeNext } from "@/components/sections/life/LifeNext";
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
  * ■ 棚卸し（どの文がどの出典か・何を削ったか）… docs/life-inventory.md
  *
  * ▼ セクションの順番（2026-09-16 ブランド編集）
- *   01 最初の1週間        LifeFirstWeek
+ *   01 体験の日と、自分の時間  LifeStay
  *   02 畑に行く日の、1日。  LifeDay
  *   03 場所について        LifePlaces  ← 02 の直後であることが重要
  *   04 1ヶ月で滞在するなら  LifeMonth
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
  *   08 プラン・料金への導線  LifeNext
  *
  * ▼ 以前の構成からの変更
- *   ・「5泊6日の6日間」と「1ヶ月の1週目」を 01 最初の1週間 に統合しました。
- *     どちらも「GUILD Farm側が予定を用意する」という同じ趣旨だからです。
+ *   ・「5泊6日の6日間」と「1ヶ月の1週目」の曜日別スケジュールは、2026-11-10 に削除しました。
+ *     01 は「体験のある日は前日にLINEで案内し、参加するかどうかは自由」という章です。
  *   ・「農」セクションを解体し、畑での作業の話は 02（1日の続き）へ、
  *     体験の場所3か所と位置関係の模式図は 03 場所について へ移しました。
  *   ・「畑のほかの時間」の5章のうち、自由時間は 04 へ、地域は 03 へ統合し、
@@ -74,7 +74,7 @@ export default function LifePage() {
         lead={life.header.lead}
       />
 
-      <LifeFirstWeek />
+      <LifeStay />
       <LifeDay />
       <LifePlaces />
       <LifeMonth />

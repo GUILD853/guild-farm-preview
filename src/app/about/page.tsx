@@ -44,7 +44,7 @@ export const metadata: Metadata = {
  * ■ 並び（ブランド編集指示 2.〜8.）
  *   2. PageHeader     GUILD Farmとは（＋導入4行）
  *   3. AboutAgrarian  「農的暮らし」って、どんな暮らし？（＋比較表・id="agrarian"）
- *   4. AboutFit        最初の1週間は、一緒に。／その先は、自分で組み立てる。（id="fit"）
+ *   4. AboutFit        参加したい日に参加して、／あとは自由に過ごす。（id="fit"）
  *   5. AboutComfort    農的暮らしを通じて、“心地イイ”を見つめ直す。（HEROと同じ2行組み）
  *   6. AboutFood       農と食が、少し近くなる。
  *   7. AboutPeople     地域の人と出会う。
