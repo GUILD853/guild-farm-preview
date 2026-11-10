@@ -77,7 +77,7 @@ export const siteConfig = {
         price: 58300,
         stay: "三津浜エリアの宿",
         capacity: "1〜5名",
-        note: "受け入れ時期の限定なし（空き状況による）",
+        note: "月曜イン・土曜アウト。週の限定はなし（空き状況による）",
       },
       /**
        * 梅津寺宿の一棟貸し（1泊）。
@@ -90,7 +90,7 @@ export const siteConfig = {
         price: 38500,
         cleaning: 8000,
         stay: "GUILD Farm 梅津寺宿（松山市梅津寺町）",
-        capacity: "4名まで（お子さまの添い寝は2名まで）",
+        capacity: "4名まで",
         applyFormUrl: "https://forms.gle/9jmZhGb3qEY9QPPG9",
       },
       /** 滞在先のグレードアップ（1ヶ月滞在向け・部屋による追加料金） */
