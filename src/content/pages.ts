@@ -283,7 +283,7 @@ export const pages = {
   plans: {
     metaTitle: "プラン・料金｜5泊6日・1ヶ月滞在・一棟貸し",
     description:
-      "1ヶ月滞在・5泊6日・梅津寺宿の一棟貸し（1泊）の料金、含まれるもの、部屋と設備について。",
+      "1ヶ月滞在・5泊6日・梅津寺宿の一棟貸しの料金、含まれるもの、部屋と設備について。",
     path: "/plans/",
     label: "Plans",
     title: "この料金で、できる暮らし。",
@@ -308,7 +308,7 @@ export const pages = {
       {
         index: "04",
         en: "One Night",
-        title: "梅津寺宿 一棟貸し（1泊）",
+        title: "梅津寺宿 一棟貸し",
         summary: "ご家族やグループで、家をまるごと。",
       },
       {
